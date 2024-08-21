@@ -1,0 +1,27 @@
+.nav {
+    margin: 0;
+    height: 5em !important;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    margin-left: 2em;
+
+}
+
+
+
+.headerPrincipal {
+    background-color: #333;
+    padding: 10px 0;
+}

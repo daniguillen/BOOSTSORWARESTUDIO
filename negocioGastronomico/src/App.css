@@ -1,0 +1,40 @@
+html, body {
+  min-height: 100%;
+  margin: 0;
+  max-width: 100vw;
+
+}
+
+.containerIndex {
+  min-height: 100vh;
+  display: flex;
+ flex-direction: column; 
+ max-width: 100vw;
+}
+
+.container-main {
+  flex: 1;
+}
+
+footer {
+  background-color: #343a40; 
+  color: #ffffff;
+  text-align: center; 
+  padding: 1rem;
+  min-height: 3em; 
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 1rem; 
+    min-height: 3em; 
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 0.5rem; 
+    min-height: 2.5em; 
+  }
+}

@@ -1,0 +1,11 @@
+.containerContacto{
+    min-height: calc(100vh - 12em);
+    display: flex;
+    margin: auto;
+    margin:1em ;
+
+}
+.containerContacto .container{
+    width: 50%;
+    height: 100%;
+}

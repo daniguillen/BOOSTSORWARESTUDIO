@@ -1,0 +1,106 @@
+.btn-primary {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-primary:active {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
+
+
+
+.btn-danger {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #ff8e8e, #ff6b6b);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-danger:active {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
+
+.btn-warning {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #fbc531, #f5a623);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-warning:hover {
+    background: linear-gradient(135deg, #f5a623, #fbc531);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-warning:active {
+    background: linear-gradient(135deg, #fbc531, #f5a623);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
+
+@media (max-width: 700px) {
+    .btn-danger, .btn-primary,.btn, a  {
+       
+        font-size: 10px !important;
+        
+    }
+    footer p{
+        font-size: 9px !important;
+    }
+
+}
+@media (max-width: 490px) {
+    .btn-danger, .btn-primary,.btn, a  {
+       
+        font-size: 6px !important;
+        
+    }
+    footer p{
+        font-size: 5px !important;
+    }
+    .btn-primary {
+        padding: 6px 12px;
+        
+    }
+
+}
